@@ -1,14 +1,10 @@
 [package]
-name = "keepass"
+name = "keepass-ffi"
 version = "0.0.1"
 edition = "2021"
-description = "KeePass in Rust.  A command-line interface and SDK."
-repository = "https://github.com/ManyMath/keepass-rust"
+description = "Unofficial & unaffiliated keepass-rs FFI wrapper"
+repository = "https://github.com/ManyMath/keepass-ffi"
 license = "MIT"
-
-[[bin]]
-name = "keepass"
-path = "src/main.rs"
 
 [lib]
 name = "keepass"
